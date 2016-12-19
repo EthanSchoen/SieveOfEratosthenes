@@ -98,6 +98,7 @@
 				TargetAttributes = {
 					F475B77C1E08680A008967CD = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 68P65XKM9H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,6 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68P65XKM9H;
 				INFOPLIST_FILE = "Sieve of Eratosthenes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "procore.Sieve-of-Eratosthenes";
@@ -273,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 68P65XKM9H;
 				INFOPLIST_FILE = "Sieve of Eratosthenes/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "procore.Sieve-of-Eratosthenes";
