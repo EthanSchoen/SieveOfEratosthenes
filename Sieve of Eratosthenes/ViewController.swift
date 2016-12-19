@@ -31,10 +31,42 @@ class ViewController: UIViewController {
         }
         return naturals
     }
+    
+    func primes_on_the_fly(primes: inout [Int], start: Int, n: Int) -> [Int] {
+        if primes.count == 0 {
+            let p = get_n_primes(n: n)
+            var index = 0;
+            for i in p {
+                if i {
+                    primes.append(index)
+                }
+                index += 1
+            }
+            return primes
+        }
+        for i in start...n {
+            var isPrime = true
+            for p in primes {
+                if Double(i/p) == Double(i)/Double(p) {
+                    isPrime = false;
+                }
+            }
+            if isPrime {
+                primes.append(i)
+            }
+        }
+        return primes;
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        get_n_primes(n: 100)
+        var p = [Int]()
+        var s = 0
+        for i in 1...10 {
+            p = primes_on_the_fly(primes: &p, start: s, n: i*10)
+            s = i*10
+            sleep(1)
+        }
     }
 
     override func didReceiveMemoryWarning() {
