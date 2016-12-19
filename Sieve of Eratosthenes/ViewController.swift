@@ -60,13 +60,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var p = [Int]()
-        var s = 0
-        for i in 1...10 {
-            p = primes_on_the_fly(primes: &p, start: s, n: i*10)
-            s = i*10
-            sleep(1)
-        }
+//        var p = [Int]()
+//        var s = 0
+//        for i in 1...10 {
+//            p = primes_on_the_fly(primes: &p, start: s, n: i*10)
+//            s = i*10
+//            sleep(1)
+//        }
     }
 
     override func didReceiveMemoryWarning() {
