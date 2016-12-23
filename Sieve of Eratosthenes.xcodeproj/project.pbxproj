@@ -13,6 +13,7 @@
 		F475B7891E08680A008967CD /* Sieve_of_Eratosthenes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F475B7871E08680A008967CD /* Sieve_of_Eratosthenes.xcdatamodeld */; };
 		F475B78B1E08680A008967CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F475B78A1E08680A008967CD /* Assets.xcassets */; };
 		F475B78E1E08680A008967CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F475B78C1E08680A008967CD /* LaunchScreen.storyboard */; };
+		F49AC9441E0B6F7900F12809 /* Embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49AC9431E0B6F7900F12809 /* Embed.swift */; };
 		F4CB9EA71E087F180083ED34 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB9EA61E087F180083ED34 /* CollectionViewController.swift */; };
 		F4CB9EA91E0885860083ED34 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CB9EA81E0885860083ED34 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		F475B78A1E08680A008967CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F475B78D1E08680A008967CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F475B78F1E08680A008967CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49AC9431E0B6F7900F12809 /* Embed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Embed.swift; sourceTree = "<group>"; };
 		F4CB9EA61E087F180083ED34 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		F4CB9EA81E0885860083ED34 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 				F475B7821E08680A008967CD /* ViewController.swift */,
 				F4CB9EA61E087F180083ED34 /* CollectionViewController.swift */,
 				F475B7841E08680A008967CD /* Main.storyboard */,
+				F49AC9431E0B6F7900F12809 /* Embed.swift */,
 				F4CB9EA81E0885860083ED34 /* CollectionViewCell.swift */,
 				F475B78A1E08680A008967CD /* Assets.xcassets */,
 				F475B78C1E08680A008967CD /* LaunchScreen.storyboard */,
@@ -148,6 +151,7 @@
 				F4CB9EA91E0885860083ED34 /* CollectionViewCell.swift in Sources */,
 				F4CB9EA71E087F180083ED34 /* CollectionViewController.swift in Sources */,
 				F475B7831E08680A008967CD /* ViewController.swift in Sources */,
+				F49AC9441E0B6F7900F12809 /* Embed.swift in Sources */,
 				F475B7811E08680A008967CD /* AppDelegate.swift in Sources */,
 				F475B7891E08680A008967CD /* Sieve_of_Eratosthenes.xcdatamodeld in Sources */,
 			);
